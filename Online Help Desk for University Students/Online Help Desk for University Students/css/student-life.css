@@ -1,0 +1,238 @@
+.row h1{
+    position: relative;
+    bottom: 35px;
+}
+
+.hr1
+{
+	max-width: 95%;
+	border-top: 1px solid black;
+}
+
+.column1{
+	float: left;
+	width: 45%;
+	padding: 5px;
+}
+.column2{
+	float: right;
+	width: 45%;
+	padding: 5px;
+}
+
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	padding: 20px;
+	grid-gap: 40px;
+}
+
+.card{
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 30px rgba(0,0,0,0,18);
+}
+
+.container1{
+	position: relative;
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.row img{
+	width: 100%;
+	display: block;
+	border-radius: 20px 20px 0 0;
+}
+
+.container1:after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 20px 20px 0 0;
+	opacity: 0.7;
+}
+
+.card1>.container1:after{
+	background-image: linear-gradient( 135deg, #0100ec,#fb36f4);
+}
+
+.card2>.container1:after{
+	background-image: linear-gradient( 135deg, #2bdce3,#42ffdb);
+}
+
+.card3>.container1:after{
+	background-image: linear-gradient( 135deg, #ff8c00,#ff4500);
+}
+
+.card4>.container1:after{
+	background-image: linear-gradient( 135deg, #7fff00,#008000);
+}
+
+.card5>.container1:after{
+	background-image: linear-gradient( 135deg, #ff0000,#800000);
+}
+
+.card6>.container1:after{
+	background-image: linear-gradient( 135deg, #ffd700,#daa520);
+}
+
+
+.details{
+	padding: 20px 10px;
+}
+
+.details>h3{
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 24px;
+	margin: 10px 0 15px 0;
+}
+
+.details>p{
+	color: #a0a0a0;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.button1{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	font-size: 20px;
+	color: #ee15f4;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #ee15f4;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+
+.button1:hover
+{
+	box-shadow: 0 5px 50px 0 #ee15f4 inset, 0 5px 50px 0 #ee15f4,
+	            0 5px 50px 0 #ee15f4 inset, 0 5px 50px 0 #ee15f4;
+}
+
+.button2{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	font-size: 20px;
+	color: #15f4ee;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #15f4ee;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+
+.button2:hover
+{
+	box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+	            0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+
+.button3{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	font-size: 20px;
+	color: #f47f15;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #f47f15;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+
+.button3:hover
+{
+	box-shadow: 0 5px 50px 0 #f47f15 inset, 0 5px 50px 0 #f47f15,
+	            0 5px 50px 0 #f47f15 inset, 0 5px 50px 0 #f47f15;
+}
+
+.button4{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	font-size: 20px;
+	color: #1bf415;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #1bf415;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+
+.button4:hover
+{
+	box-shadow: 0 5px 50px 0 #1bf415 inset, 0 5px 50px 0 #1bf415,
+	            0 5px 50px 0 #1bf415 inset, 0 5px 50px 0 #1bf415;
+}
+
+.button5{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	font-size: 20px;
+	color: #f4151b;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #f4151b;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+
+.button5:hover
+{
+	box-shadow: 0 5px 50px 0 #f4151b inset, 0 5px 50px 0 #f4151b,
+	            0 5px 50px 0 #f4151b inset, 0 5px 50px 0 #f4151b;
+}
+
+.button6{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	font-size: 20px;
+	color: #f4ee15;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #f4ee15;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+
+.button6:hover
+{
+	box-shadow: 0 5px 50px 0 #f4ee15 inset, 0 5px 50px 0 #f4ee15,
+	            0 5px 50px 0 #f4ee15 inset, 0 5px 50px 0 #f4ee15;
+}

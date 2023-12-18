@@ -1,0 +1,105 @@
+.resback{
+  width: 100%;
+  height: 1500px;
+  background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)), url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.row h1{
+  position: relative;
+}
+
+.hr1
+{
+    max-width: 95%;
+    border-top: 1px solid black;
+}
+
+.res{
+  position: relative;
+  bottom: 25px;
+}
+
+.res a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.res a:link, a:visited{
+   
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .res a:hover, a:active {
+    background-color:navy;
+    border-radius: 5px;
+  }
+
+.resh1{
+  color: aqua;
+  text-align: center;
+}
+  
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .restext .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .restext .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .restext .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }

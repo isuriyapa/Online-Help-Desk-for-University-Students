@@ -1,0 +1,64 @@
+.row h1{
+    position: relative;
+    bottom: 35px;
+  }
+  
+  .hr1
+  {
+      max-width: 95%;
+      border-top: 1px solid black;
+  }
+  
+  .column{
+      float: left;
+      width: 45%;
+      padding: 30px;
+  }
+  
+  .notice1{
+      padding: 50px;
+    border-radius: 5%;
+      background-color: aqua;
+      box-shadow: 0 22px 128px rgba(0,0,0,0.2);
+  }
+      
+  .notice1_img img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 10%;
+  }
+  
+  .notice1_date span{
+      display: block;
+      color: rgba(0, 0, 0, .5);
+      font-size: 10px;
+      font-weight: 600;
+      margin: 8px 0;
+    text-align: right;
+  }
+  
+  .notice1_title{
+      font-size: 40px;
+      margin: 24px 0 32px;
+      text-transform: uppercase;
+      color: #4facfe;
+  }
+  
+  .notice1_text{
+      margin-bottom: 48px;
+      font-size: 22px;
+      color: rgba(0, 0, 0, 7);
+  }
+  
+  .notice1_cta{
+      display: inline-block;
+      padding: 24px 48px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 19px;
+      color: #fff;
+      background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+      border-radius: 13px;
+  }
